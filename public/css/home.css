@@ -1,0 +1,219 @@
+
+/**************** SLider Section stars here ******************/
+
+.slider {
+    width: 100%;
+    padding-bottom: 35PX;
+}
+.slider .carousel-inner,.carousel,.carousel-item,.fill {
+    height:100%;
+    min-height: 280px;
+    width:100%;
+    background-position:center center;
+    background-size:cover;
+}
+
+
+.slider .slide-wrapper{display:inline;}
+.slider .slide-wrapper .container{padding:0;}
+/*------------------------------ vertical bootstrap slider----------------------------*/
+
+.slider .carousel-inner> .carousel-item.carousel-item-next ,
+.carousel-inner > .carousel-item.active.carousel-item-right{
+    transform: translate3d(0, 100%, 0); -webkit-transform: translate3d(0, 100%, 0); -ms-transform: translate3d(0, 100%, 0); -moz-transform: translate3d(0, 100%, 0); -o-transform: translate3d(0, 100%, 0);  top: 0;
+
+}
+.carousel-inner > .carousel-item.carousel-item-prev ,
+.carousel-inner > .carousel-item.active.carousel-item-left{
+    transform: translate3d(0,-100%, 0); -webkit-transform: translate3d(0,-100%, 0);  -moz-transform: translate3d(0,-100%, 0);-ms-transform: translate3d(0,-100%, 0); -o-transform: translate3d(0,-100%, 0); top: 0;
+
+}
+.carousel-inner > .carousel-item.next.carousel-item-left ,
+.carousel-inner > .carousel-item.carousel-item-prev.carousel-item-right ,
+.carousel-inner > .carousel-item.active{
+    transform:translate3d(0,0,0); -webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);; -moz-transform:translate3d(0,0,0); -o-transform:translate3d(0,0,0); top:0;
+
+}
+
+/*------------------------------- vertical carousel indicators ------------------------------*/
+.slider .carousel-indicators{
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    height:20px;
+    right:10px; left:auto;
+    width:auto;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.carousel-indicators li{
+    display:block; margin-bottom:5px; border:1px solid #7C4DFF;
+
+}
+.carousel-indicators li.active{
+    margin-bottom:5px; background:#7C4DFF;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .slider {
+        height: 60%;
+    }
+    .slider .carousel-inner,.carousel,.carousel-item,.fill {
+        height:60%;
+        min-height: 170px;
+        width:100%;
+        background-position:center center;
+        background-size:cover;
+    }
+    .slider .carousel-indicators{
+        position:absolute;
+        top:0;
+        bottom:0;
+        margin:auto;
+        height:10px;
+        right:0px; left:auto;
+        width:auto;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+
+/**************** SLider Section ends here ******************/
+
+/**************** topic Section starts here ******************/
+.topic{
+    width: 100%;
+    height: auto;
+    background-color: #F7F8FA;
+    padding: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.topic .topic- h2{
+    font-weight: 700;
+}
+.topic .topic-inner h2{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.topic .topic-inner p{
+    color: #575252;
+}
+.topic .topic-inner .topic-options{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topic .topic-inner .topic-options .card{
+    margin: 10px;
+    border-radius: 15PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topic .topic-inner .topic-options .card:hover{
+    border: 1px solid #7C4DFF;
+
+}
+
+.topic .topic-inner .topic-options .card .card-body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .topic .topic-inner .topic-options .card .card-body h5{
+    font-weight: 700;
+ }
+ .topic .topic-inner .topic-options .card .card-body i{
+    margin-right: 12px;
+    font-size: 30px;
+ }
+
+
+/**************** topic Section ends here ******************/
+
+
+
+/*********************************** topic Section starts here ***********************************/
+
+#topic {
+
+    padding: 10px 0 80px 0;
+    background-color: #F7F8FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#topic .topic-cols{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#topic .topic-col {
+    margin-bottom: 20px;
+
+}
+
+#topic .topic-col .img {
+    position: relative;
+}
+
+#topic .topic-col .img img {
+    border-radius: 4px 4px 0 0;
+}
+
+#topic .topic-col:hover i {
+    color: var(--color-primary);
+}
+
+#topic .topic-col h2 {
+    color: var(--color-black);
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0;
+    margin: 40px 0 12px 0;
+    text-transform: uppercase;
+}
+
+#topic .topic-col h2 a {
+    color: black;
+}
+
+#topic .topic-col h2 a:hover {
+    color: #0A2463;
+}
+
+#topic .topic-col p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    margin-bottom: 0;
+    padding: 0 20px 20px 20px;
+}
+
+
+/*********************************** topic Section ends here ***********************************/
+
+
