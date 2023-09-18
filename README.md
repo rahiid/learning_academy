@@ -1,4 +1,4 @@
-<h1 align="center">Learing Academy</h1>
+<h1 align="center">Learning Academy</h1>
 
 
 
